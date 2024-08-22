@@ -9,18 +9,19 @@ hero:
   actions:
     - theme: brand
       fontawesome: ['fab', 'chrome']
-      text: 桌面Web端
-      link: /docs/client/nelemer.md
+      text: 浏览器访问
+      # link: /docs/client/desktop-client.md
+      link: https://chat.neboer.site/
     - theme: alt
       fontawesome: ['fas', 'mobile-screen']
       text: 其他客户端
-      link: /docs/client/others.md
+      link: /docs/client/available-clients.md
     - theme: alt
       fontawesome: ['far', 'file']
       text: 阅读文档
       link: /docs/
   image:
-    src: ./assets/nerchat/nerchat_logo.svg
+    src: /nerchat_logo.svg
     alt: VitePress
 
 features:
@@ -57,4 +58,3 @@ features:
       fontawesome: ['fas', 'users']
     details: NerChat!兼容Matrix协议的所有软件，同时NerChat!的软件也兼容其他的Matrix服务器。NerChat!会促进Matrix在中国境内的快速传播。
 ---
-

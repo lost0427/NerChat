@@ -32,7 +32,7 @@ export default withMermaid({
       { icon: 'github', link: 'https://github.com/Neboer/NerChat' }
     ],
     footer: {
-      message: 'NerChat! Documents are written by Neboer with ❤️',
+      message: 'NerChat! Documents are written by Neboer & Retrieve0 & Cikaros with ❤️',
       copyright: cc_by_40_html
     },
     lastUpdated: {
@@ -63,5 +63,9 @@ export default withMermaid({
 
   mermaid: {
     // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
+  },
+  base: "/nerchat",
+  sitemap: {
+    hostname: 'https://www.neboer.site/nerchat/'
   }
 })
